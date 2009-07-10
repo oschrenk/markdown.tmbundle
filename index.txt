@@ -28,6 +28,9 @@ This is a fork of the original Markdown bundle for TextMate that includes proper
 
 Please see the [main MultiMarkdown page](http://fletcherpenney.net/multimarkdown/) for further information about MultiMarkdown, or the [MultiMarkdown TextMate Bundle](http://fletcherpenney.net/multimarkdown/multimarkdown_bundle_for_textm/) page for more information about this bundle.
 
+## Installation ##
+
+Install it just like any other bundle.  It will find a copy of MultiMarkdown in `~/Library/Application Support/MultiMarkdown` automatically, or you can set  `TM_MULTIMARKDOWN_PATH` to the location of your installation (see TextMate->Preferences->Advanced->Shell Variables).
 
 ## Author ##
 
