@@ -1,0 +1,53 @@
+Author: Fletcher T. Penney
+Title: fletcher/markdown.tmbundle @ GitHub
+CSS: main.css
+
+<a href="http://github.com/fletcher/markdown.tmbundle"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+<div id="container" markdown="1">
+
+<div class="download" markdown ="1">
+  <a href="http://github.com/fletcher/markdown.tmbundle/zipball/master">
+    <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"/></a>
+  <a href="http://github.com/fletcher/markdown.tmbundle/tarball/master">
+    <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"/></a>
+</div>
+  
+# <a href="http://github.com/fletcher/markdown.tmbundle">markdown.tmbundle</a> #
+
+
+## by <a href="http://github.com/fletcher">Fletcher T. Penney</a> ##
+
+<div class="description">
+  Variation of the markdown TextMate bundle with improved support for MultiMarkdown
+</div>
+
+ 
+
+This is a fork of the original Markdown bundle for TextMate that includes proper support for MultiMarkdown, as well as some additional features for working with MMD documents.
+
+Please see the [main MultiMarkdown page](http://fletcherpenney.net/multimarkdown/) for further information about MultiMarkdown, or the [MultiMarkdown TextMate Bundle](http://fletcherpenney.net/multimarkdown/multimarkdown_bundle_for_textm/) page for more information about this bundle.
+
+
+## Author ##
+
+MultiMarkdown related changes by Fletcher T. Penney (<owner@fletcherpenney.net>).  Based on the original [Markdown bundle](http://github.com/textmate/markdown.tmbundle/tree/master) for TextMate by multiple authors.
+
+## Download ##
+
+You can download this project in either
+  <a href="http://github.com/fletcher/markdown.tmbundle/zipball/master">zip</a> or
+  <a href="http://github.com/fletcher/markdown.tmbundle/tarball/master">tar</a> 
+formats.
+
+You can also clone the project with <a href="http://git-scm.com">Git</a> by running:
+
+	$ git clone git://github.com/fletcher/markdown.tmbundle
+
+
+  
+<div class="footer">
+  get the source code on GitHub : <a href="http://github.com/fletcher/markdown.tmbundle">fletcher/markdown.tmbundle</a>
+</div>
+
+</div>
