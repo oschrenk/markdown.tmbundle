@@ -5,22 +5,27 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># Process the MultiMarkdown document into LaTeX
+	<string># Process the MultiMarkdown document into ODF
 
-multimarkdown -t latex</string>
+
+TEMPFILE=`/usr/bin/mktemp -t TextMate.fodt | sed 's/\.[^.]*$//'` || exit 1
+
+multimarkdown -t odf &gt; $TEMPFILE
+open $TEMPFILE
+</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
-	<string>^L</string>
+	<string>^O</string>
 	<key>name</key>
-	<string>Convert Document / Selection to LaTeX</string>
+	<string>Convert Document / Selection to ODF</string>
 	<key>output</key>
-	<string>openAsNewDocument</string>
+	<string>showAsTooltip</string>
 	<key>scope</key>
 	<string>text.html.markdown.multimarkdown</string>
 	<key>uuid</key>
-	<string>67EB96A4-4213-42C9-9C47-B886A4B8AC93</string>
+	<string>C92636B7-8795-4CE4-8F0B-0F2EB200CAA1</string>
 </dict>
 </plist>
